@@ -30,11 +30,25 @@ nav a:hover {
   text-align: center;
 }
 .searchBar {
-  max-width: 800px;
-  padding-bottom: 1.75vh;
+  display: grid;
+  grid-template-areas: "icon search search search";
+  width: 400px;
+  margin-bottom: 1.75vh;
+  border: 1px solid gray;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  border-radius: 20px;
 }
 /* for the search input */
 #element2 {
+  grid-area: search;
+  border: none;
+  height: 2.8vh;
+}
+
+#element1 {
+  grid-area: icon;
+  max-width: 24px;
 }
 .buttonsGroup {
   padding-bottom: 1.5vh;
