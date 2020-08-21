@@ -1,0 +1,57 @@
+/* relative to all of the parts */
+a {
+  text-decoration: none;
+  color: gray;
+}
+/* Top Part */
+nav {
+  text-align: right;
+  height: 40px;
+  padding-right: 18px;
+  padding-top: 10px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/* Middle Part */
+.main {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 58vh;
+}
+
+.logo img {
+  display: block;
+  margin: auto;
+}
+.form {
+  padding-top: 1.75vh;
+  text-align: center;
+}
+.searchBar {
+  max-width: 800px;
+  padding-bottom: 1.75vh;
+}
+/* for the search input */
+#element2 {
+}
+.buttonsGroup {
+  padding-bottom: 1.5vh;
+}
+
+/* End Part */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: gainsboro;
+  margin-left: -2vw;
+  padding-left: 2vw;
+}
+#location {
+  height: 6.4vh;
+}
+.footerNav {
+  height: 6.4vh;
+}
